@@ -3,7 +3,7 @@ print = console.log
 
 class Gen {
     constructor(first_member='1') {
-        this.sequence = [first_member, `${first_member}${first_member}`]
+        this.sequence = [first_member, `1${first_member}`]
     }
 
     addLine() {
