@@ -4,7 +4,6 @@ print = console.log
 class Gen {
     constructor(first_member='1') {
         this.sequence = [first_member, `${first_member}${first_member}`]
-        // console.log(this.sequence[-1])
     }
 
     addLine() {
